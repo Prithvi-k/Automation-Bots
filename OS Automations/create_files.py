@@ -1,7 +1,7 @@
 import os
 
 # Change text in path.txt to required path
-with open('OS Automations\path.txt', 'r') as file:
+with open('OS Automations\path_to_file.txt', 'r') as file:
     path = file.read()
 
 files_number = int(input("Please input number of files to be created: "))

@@ -4,7 +4,7 @@ search = str(input("Please input file(s) name to be searched and replaced: "))
 replace = str(input("Please input name to be renamed to: "))
 
 # Change text in path.txt to required path
-with open('OS Automations\path.txt', 'r') as file:
+with open('OS Automations\path_to_file.txt', 'r') as file:
     path_to_files = file.read()
 
 # Get all files from directory
