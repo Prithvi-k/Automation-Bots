@@ -1,9 +1,7 @@
 import os
 
 # Change text in path.txt to required path
-with open('OS Automations\path_to_file.txt', 'r') as file:
-    path = file.read()
-
+path = 'C:\\Users\\KARTHIK\\Projects\\Automation-Bots\\OS-Automations\\Test-files'
 files_number = int(input("Please input number of files to be created: "))
 files_name = str(input("Please input name of files to be created: "))
 files_extension = str(
